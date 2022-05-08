@@ -1,38 +1,118 @@
-.App {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+Body {
+  
+    box-sizing: border-box;
+
+  
+  background: url('./assets/background/maxresdefault.jpg');
+  background-size: 100% 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow:inset 0 0 0 100% rgba(0, 0, 0, 0.6);
+  
+  
+}
+
+
+.main-app {
+  text-align: center;
+  margin: 0px;
+  
+  
+  
+ 
+}
+
+.cta-button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  min-width: 250px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.connect-wallet-button {
+  background: rgb(32, 129, 226);
+}
+
+.mint-nft-button {
+  background: orange;
+  height: 200;
+}
+
+.background {
+  height: 120px;
+  width: 1080px;
+
+ 
+
+}
+
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: relative;   
+  top: -20px;  
+  text-align: center;
+  background: rgb(53, 108, 226);
+  min-height: 100%; 
+  min-width: 1px;
+  
+
+  
+
+}
+.Mintnow {
+  top: 200px;
+  position: relative;
+}
+.Dec {
+  top: 200px;
+  position: relative;
+}
+.Inc {
+  top: 200px;
+  position: relative;
+}
+.number {
+  top: 200px;
+  position: relative;
+}
+
+.mintNftButton {
+  top: 300px;
+  position: relative;
+}
+.MainWebsite {
+  height:40px;
+  width:100px;
+  position: relative;
+  top: 30px;
+  border-radius: 15px;
+  background-color: rgb(40, 204, 75);
+  border-style: none;
+}
+.minting  {
+  position: relative;
+  bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Wallet {
+  height:40px;
+  width:100px;
+  position: relative;
+  top: 30px;
+  border-radius: 15px;
+  background-color: rgb(40, 204, 75);
+  border-style: none;
 }
